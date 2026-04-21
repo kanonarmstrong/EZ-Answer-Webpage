@@ -40,8 +40,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body.password-hidden {
-  visibility: hidden;
+body.password-hidden > *:not(.password-gate) {
+  display: none !important;
 }
 
 .password-gate {
